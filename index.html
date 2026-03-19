@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:50px;'>Open this on mobile 📱</h2>";
+}
+</script>
+
+<h1>Do you like me? ❤️</h1>
+
+<button onclick="yes()">Yes</button>
+<button onclick="no()">No</button>
+
+<script>
+function yes(){
+    window.location.href = "yes.html";
+}
+function no(){
+    window.location.href = "page2.html";
+}
+</script>
+
+</body>
+</html>

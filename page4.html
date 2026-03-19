@@ -1,0 +1,29 @@
+<h1>Last chance 😈</h1>
+
+<button onclick="yes()">Yes</button>
+<button id="no">No</button>
+
+<script>
+function yes(){
+    window.location.href = "yes.html";
+}
+
+let noBtn = document.getElementById("no");
+
+noBtn.addEventListener("touchstart", moveBtn);
+noBtn.addEventListener("mouseover", moveBtn);
+
+function moveBtn(){
+    let x = Math.random() * (window.innerWidth - 100);
+    let y = Math.random() * (window.innerHeight - 50);
+
+    noBtn.style.position = "absolute";
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
+}
+</script>
+<script>
+if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:50px;'>Open this on mobile 📱</h2>";
+}
+</script>

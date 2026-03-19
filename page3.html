@@ -1,0 +1,17 @@
+<h1>Think again 😭</h1>
+
+<button onclick="yes()">Yes</button>
+<button onclick="no()">No</button>
+<script>
+if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:50px;'>Open this on mobile 📱</h2>";
+}
+</script>
+<script>
+function yes(){
+    window.location.href = "yes.html";
+}
+function no(){
+    window.location.href = "page4.html";
+}
+</script>

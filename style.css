@@ -1,0 +1,24 @@
+body{
+text-align:center;
+font-family:Arial;
+background:#ffe6f0;
+margin-top:100px;
+}
+
+button{
+padding:15px 25px;
+font-size:18px;
+margin:10px;
+border:none;
+border-radius:10px;
+}
+
+button:first-child{
+background:green;
+color:white;
+}
+
+button:last-child{
+background:red;
+color:white;
+}
