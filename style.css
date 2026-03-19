@@ -1,46 +1,61 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
-    background: #ffe6f0;
+    font-family: Arial, sans-serif;
+    background: #ffd6e8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    text-align: center;
 }
 
 .container {
+    text-align: center;
+    width: 90%;
     max-width: 350px;
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 24px;
     color: #ff2e63;
     margin-bottom: 20px;
 }
 
 img {
-    width: 250px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 button {
     padding: 14px 28px;
     font-size: 18px;
-    margin: 10px;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
+/* YES BUTTON */
 .yes {
     background: #28a745;
     color: white;
 }
 
+/* NO BUTTON */
 .no {
-    background: #dc3545;
+    background: #ff3b3b;
     color: white;
+}
+
+/* CLICK EFFECT */
+button:active {
+    transform: scale(0.95);
 }
