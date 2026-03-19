@@ -9,47 +9,51 @@ body {
     height: 100vh;
 }
 
+/* CONTAINER BIGGER */
 .container {
     text-align: center;
-    width: 90%;
-    max-width: 350px;
+    width: 95%;
+    max-width: 420px;
 }
 
+/* BIGGER TEXT */
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     color: #ff2e63;
-    margin-bottom: 20px;
-}
-
-img {
-    width: 100%;
-    max-width: 260px;
-    border-radius: 12px;
     margin-bottom: 25px;
 }
 
+/* BIGGER GIF */
+img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* BUTTON LAYOUT */
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
+/* BIGGER BUTTONS */
 button {
-    padding: 14px 28px;
-    font-size: 18px;
+    padding: 18px 36px;
+    font-size: 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
     transition: 0.2s;
 }
 
-/* YES BUTTON */
+/* COLORS */
 .yes {
     background: #28a745;
     color: white;
 }
 
-/* NO BUTTON */
 .no {
     background: #ff3b3b;
     color: white;
